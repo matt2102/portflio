@@ -23,7 +23,7 @@ export const Contact = () => {
       className={classes.grid}
       >
         <Typography color="secondary">email:</Typography>
-        <Typography color="secondary">name@example.com</Typography>
+        <Typography color="secondary">matt@lajoy.tech</Typography>
       </Grid>
     </div>
   )
