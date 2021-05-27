@@ -1,6 +1,8 @@
 import architect from "../../assets/images/certs/AWS-SolArchitect-Associate-2020.png"
 import developer from "../../assets/images/certs/AWS-Developer-Associate-2020.png"
 import comptia from "../../assets/images/certs/CompTIA_ITFund.png"
+import architectPro from "../../assets/images/certs/AWS-SolArchitect-Professional-2020.png"
+
 
 import aws from "../../assets/images/technologies/aws.png"
 import docker from "../../assets/images/technologies/Moby-logo.png"
@@ -38,6 +40,11 @@ export const projects = [
 
 export const certificates = [
   {
+    name: "AWS Solutions Architect Professional",
+    alt: "AWS Solutions Architect Professional Badge",
+    src: architectPro
+  },
+  {
     name: "AWS Solutions Architect Associate",
     alt: "AWS Solutions Architect Associate Badge",
     src: architect
@@ -47,11 +54,11 @@ export const certificates = [
     alt: "AWS Devloper Associate Badge",
     src: developer
   },
-  {
-    name: "CompTIA IT Fundamentals",
-    alt: "CompTIA IT Fundamentals Badge",
-    src: comptia
-  }
+  // {
+  //   name: "CompTIA IT Fundamentals",
+  //   alt: "CompTIA IT Fundamentals Badge",
+  //   src: comptia
+  // }
 ]
 
 export const technologies = [
